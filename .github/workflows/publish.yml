@@ -34,4 +34,4 @@ jobs:
         env:
           MAVEN_USERNAME: ${{ github.actor }}
           MAVEN_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
-        run: mvn -B deploy -DskipTests -Daether.checksums.algorithms=SHA-1,MD5
+        run: mvn -B deploy -DskipTests
