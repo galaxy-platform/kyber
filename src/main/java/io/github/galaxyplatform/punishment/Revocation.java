@@ -1,6 +1,6 @@
-package com.github.willrees23.punishment;
+package io.github.galaxyplatform.punishment;
 
-import com.github.willrees23.account.Account;
+import io.github.galaxyplatform.account.Account;
 import lombok.Builder;
 
 import java.time.Instant;

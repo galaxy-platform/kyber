@@ -1,4 +1,4 @@
-package com.github.willrees23.punishment;
+package io.github.galaxyplatform.punishment;
 
 public enum PunishmentType {
     WARN,

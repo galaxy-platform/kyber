@@ -1,4 +1,4 @@
-package com.github.willrees23.account;
+package io.github.galaxyplatform.account;
 
 import lombok.Builder;
 
