@@ -11,6 +11,8 @@ jobs:
     permissions:
       contents: read
       packages: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - uses: actions/checkout@v4
@@ -32,4 +34,4 @@ jobs:
         env:
           MAVEN_USERNAME: ${{ github.actor }}
           MAVEN_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
-        run: mvn -B deploy -DskipTests -Daether.connector.basic.parallelPut=false
+        run: mvn -B deploy -DskipTests -Daether.checksums.algorithms=SHA-1,MD5
