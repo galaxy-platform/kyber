@@ -16,14 +16,14 @@
     </properties>
 
     <scm>
-        <url>https://github.com/willrees23/kyber</url>
-        <connection>scm:git:https://github.com/willrees23/kyber.git</connection>
+        <url>https://github.com/galaxy-platform/kyber.git</url>
+        <connection>scm:git:https://github.com/galaxy-platform/kyber.git</connection>
     </scm>
 
     <distributionManagement>
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/willrees23/kyber</url>
+            <url>https://github.com/galaxy-platform/kyber</url>
         </repository>
     </distributionManagement>
 
